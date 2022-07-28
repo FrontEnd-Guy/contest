@@ -1,0 +1,10 @@
+.place__image-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.place__image-container:hover .place__image {
+  transform: scale(1.1);
+}

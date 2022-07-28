@@ -1,4 +1,5 @@
 @font-face {
+<<<<<<< HEAD
   font-family: 'Open-sans';
   font-style: normal;
   font-weight: 400;
@@ -12,4 +13,19 @@
   font-weight: 700;
   font-display: swap;
   src: url("./Open-Sans-Bold.woff2") format("woff2"),
+=======
+  font-family: 'Open Sans';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Open-Sans/Open-Sans-Regular.woff2") format("woff2")
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./Open-Sans/Open-Sans-Bold.woff2") format("woff2")
+>>>>>>> a00bd29c6245dac0477d1c96c21796a872e7bf3b
 }

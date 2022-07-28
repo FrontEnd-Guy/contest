@@ -1,5 +1,9 @@
 .root {
+<<<<<<< HEAD
   font-family: 'Open-sans', sans-serif;
+=======
+  font-family: 'Open Sans', arial, sans-serif;
+>>>>>>> a00bd29c6245dac0477d1c96c21796a872e7bf3b
   color: #010101;
   background-color: #fff;
   max-width: 1280px;
