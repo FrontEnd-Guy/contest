@@ -1,0 +1,21 @@
+.people__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0 60px;
+}
+
+@media screen and (max-width: 1024px) {
+  .people__list {
+    margin-left: 25px;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .people__list {
+    margin-left: 15px;
+  }
+}

@@ -1,0 +1,15 @@
+.footer__subtitle {
+  grid-area: subtitle;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+  .footer__subtitle {
+    font-size: 12px;
+  }
+}

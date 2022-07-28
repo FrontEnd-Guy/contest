@@ -1,0 +1,6 @@
+.people__name {
+  text-transform: uppercase;
+  margin: 0 0 22px;
+  padding: 0;
+  font-size: 12px;
+}

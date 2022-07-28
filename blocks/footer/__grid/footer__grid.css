@@ -1,0 +1,17 @@
+.footer__grid {
+  display: grid;
+  grid-template-areas: "author logo"
+                       "subtitle logo"
+                       "copyright copyright";
+  column-gap: 30px;
+  row-gap: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__grid {
+    grid-template-areas: "author"
+                         "subtitle"
+                         "logo"
+                         "copyright";
+  }
+}

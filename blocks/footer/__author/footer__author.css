@@ -1,0 +1,13 @@
+.footer__author {
+  grid-area: author;
+  margin: 0;
+  font-size: 24px;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__author {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,17 @@
+.footer__logo {
+  grid-area: logo;
+  min-width: 80px;
+  min-height: 80px;
+  background-image: url(../../../images/footer_logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: pulse 1s ease-in-out infinite alternate;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__logo {
+    min-width: 40px;
+    min-height: 40px;
+  }
+}
