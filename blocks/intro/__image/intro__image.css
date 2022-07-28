@@ -4,7 +4,8 @@
   width: 100%;
 }
 
+
 .intro__image:hover {
-  transform: translate(10px, 0);
+  transform: scale(1.2);
   transition: transform .4s ease-out;
 }

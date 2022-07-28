@@ -7,6 +7,10 @@
   font-size: 12px;
 }
 
+.header__list-item:last-of-type {
+  justify-self: flex-end;
+}
+
 .header__list-item:hover {
   color: #FECDA7;
 }

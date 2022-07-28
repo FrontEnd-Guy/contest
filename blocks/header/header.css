@@ -15,3 +15,9 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 620px) {
+  .header {
+    padding-left: 16px;
+  }
+}
