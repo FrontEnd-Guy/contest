@@ -1,0 +1,11 @@
+.intro {
+  margin: 0;
+  padding: 0;
+  margin-top: 84px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 140px;
+}
