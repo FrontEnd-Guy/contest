@@ -1,10 +1,7 @@
 .place__image {
-  min-width: 320px;
   width: 100%;
-  margin: 0;
-  padding: 0;
+  height: auto;
   object-fit: cover;
-  object-position: center;
-  flex: 1;
+  transition: transform 1s ease-in-out;
 }
 
