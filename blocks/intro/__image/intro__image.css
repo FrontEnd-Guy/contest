@@ -1,0 +1,11 @@
+.intro__image {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  transition: transform .4s ease-out;
+}
+
+
+.intro__image:hover {
+  transform: scale(1.1);
+}
