@@ -6,3 +6,10 @@
 .header__list-item:last-child {
   margin-left: auto;
 }
+
+
+@media screen and (max-width: 660px) {
+  .header__list-item:last-child {
+    margin: 0;
+  }
+}
