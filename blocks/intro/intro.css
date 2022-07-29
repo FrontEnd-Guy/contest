@@ -10,11 +10,16 @@
   padding-right: 140px;
 }
 
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
 
 @media screen and (max-width: 820px) {
   .intro {
     flex-direction: column;
-    padding-right: 70px;
   }
 }
 
